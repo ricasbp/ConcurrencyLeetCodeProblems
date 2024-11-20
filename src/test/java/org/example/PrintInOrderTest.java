@@ -49,6 +49,7 @@ public class PrintInOrderTest {
             try {
                 printInOrder.third(printThird);
             } catch (InterruptedException e) {
+                System.out.println("Caught InterruptedException");
                 e.printStackTrace();
             }
         });
@@ -132,4 +133,21 @@ public class PrintInOrderTest {
         Assertions.assertNotEquals("firstsecondthird", output.toString());
     }
 
+    @Test
+    void printInOrder3Test() {
+        // How to make Junit Throw Exceptions: https://www.youtube.com/watch?v=Q29PFZhErUU&ab_channel=JavaBrains
+        thread3.start();
+
+        InterruptedException e1 = null;
+        // Wait for all threads to finish
+        try {
+            thread3.join();
+        } catch (InterruptedException e) {
+            System.out.println("Caught InterruptedException");
+            e1 = e;
+        }
+
+        assert e1 != null;
+        Assertions.assertEquals(InterruptedException.class, e1.getClass());
+    }
 }
