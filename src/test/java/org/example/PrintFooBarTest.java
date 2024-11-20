@@ -11,7 +11,7 @@ class PrintFooBarTest {
     StringBuilder sbResult;
     PrintFooBar printFooBar;
 
-    private static final long TIMEOUT = 2000; // 2 seconds timeout
+    private static final long TIMEOUT = 2000; // 2 seconds of timeout for all wainting threads.
     private long startTime;
 
 
@@ -28,11 +28,12 @@ class PrintFooBarTest {
                 throw new RuntimeException(e);
             }
         });
+
         thread2 = new Thread(() -> {
             try {
                 printFooBar.printBar(() -> sbResult.append("Bar"));
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                throw new RuntimeException("");
             }
         });
 
