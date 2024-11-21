@@ -9,11 +9,11 @@ Multiple LeetCode Concurrency problems with JUnit testing coverage.
       
 Solution: https://leetcode.com/problems/print-in-order/solutions/6063800/java-solution-with-code-with-comments/
 
-1116. Print FooBar Alternately: https://leetcode.com/problems/print-foobar-alternately/
+1115. Print FooBar Alternately: https://leetcode.com/problems/print-foobar-alternately/
       
 Solution: https://leetcode.com/problems/print-foobar-alternately/solutions/6066321/java-solution-with-code-with-comments/
 
-1118. Print Zero Even Odd: https://leetcode.com/problems/print-zero-even-odd/description/
+1116. Print Zero Even Odd: https://leetcode.com/problems/print-zero-even-odd/description/
       
 Solution: https://leetcode.com/problems/print-zero-even-odd/solutions/6066307/java-solution-with-code-with-comments/
 
