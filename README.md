@@ -16,6 +16,8 @@ Solution: https://leetcode.com/problems/print-zero-even-odd/solutions/6066307/ja
 
 Resolved these one's with semaphores:
 
+1117. Building H2O: https://leetcode.com/problems/building-h2o/
+Solution: https://leetcode.com/problems/print-zero-even-odd/solutions/6067075/java-solution-with-code-with-comments/
 
 
 # Documentation:
