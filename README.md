@@ -3,7 +3,7 @@ Multiple LeetCode Concurrency problems with JUnit testing coverage.
 
 # LeetCode's Done:
 
-Resolved these one's with wait() & notify():
+### Resolved these one's with wait() & notify():
 
 1114. Print in Order: https://leetcode.com/problems/print-in-order/
       
@@ -17,7 +17,7 @@ Solution: https://leetcode.com/problems/print-foobar-alternately/solutions/60663
       
 Solution: https://leetcode.com/problems/print-zero-even-odd/solutions/6066307/java-solution-with-code-with-comments/
 
-Resolved these one's with semaphores:
+### Resolved these one's with semaphores:
 
 1117. Building H2O: https://leetcode.com/problems/building-h2o/
       
